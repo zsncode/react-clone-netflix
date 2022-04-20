@@ -1,0 +1,16 @@
+
+File names convention:
+    for react components file name should start with upper case i.e App.js
+    for code module, it should be lower case i.e. requests.js
+
+useEffect 
+    any variable thats pulled back/used inside (from outside) useEffect, must be included in dependency array i.e. in Row.fetchData(), fetchUrl
+Axios:
+    To handle sending requests from our code, we'll need Axios
+    Axios is promise based HTTP client for the browser and node.js
+
+commands used:
+
+>npx create-react-app react-clone-netflix
+>npm i axios
+
