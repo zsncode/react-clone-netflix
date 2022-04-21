@@ -4,7 +4,7 @@ import Banner from './Banner.js'
 import requests from './requests.js'
 function App() {
   return (
-    <div className="App">
+    <div className="app">
       {/* <h1>NETFLIX</h1> */}
       {/* NAV BAR */}
       <Banner />
